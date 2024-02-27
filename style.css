@@ -1,0 +1,137 @@
+body {
+  font-family: "Dosis", sans-serif;
+  margin: 10px;
+  background-color: whitesmoke;
+}
+
+/* header */
+.header {
+  background-image: url(./images/forest2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 0;
+}
+
+.one-logo {
+  display: flex;
+  align-items: left;
+  height: 100px;
+  width: auto;
+  padding: 10px;
+  margin: 0;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Protest Revolution", sans-serif;
+  text-align: left;
+  margin-left: 5px;
+}
+
+/* nav bar - overflow: hidden is connected to float:right !!!! */
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: antiquewhite;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+/* main + section one and two */
+.center {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+}
+.main-picture {
+  height: 400px;
+  width: auto;
+  margin: 10px;
+  padding: 10px;
+}
+
+.bottom-nav {
+  text-align: left;
+}
+/* section */
+
+.colums {
+  column-count: 2;
+  column-gap: 10px;
+  column-width: auto;
+}
+
+.one {
+  text-align: left;
+  height: auto;
+}
+#one {
+  text-align: center;
+}
+
+/* tables pictures */
+
+table,
+td,
+th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+td {
+  height: 50px;
+  vertical-align: center;
+}
+
+td,
+.image {
+  padding: 5px;
+  image-orientation: inherit;
+}
+.image {
+  width: 100px;
+  height: 100px;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 20px 0;
+}
+
+.email {
+  color: blue;
+}
